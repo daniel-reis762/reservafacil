@@ -1,0 +1,29 @@
+<!doctype html>
+<!--
+  Camada de interface: pagina inicial do ReservaFacil.
+  Esta primeira etapa exibe apenas a verificacao de disponibilidade da API.
+-->
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sistema de reserva de salas de estudo e reuniao." />
+    <title>ReservaFácil | Reserva de salas</title>
+    <link rel="stylesheet" href="/estilos.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <main class="pagina">
+      <section class="painel" aria-labelledby="titulo">
+        <p class="etiqueta">Projeto de Desenvolvimento Web</p>
+        <h1 id="titulo">ReservaFácil</h1>
+        <p class="introducao">Sistema de reserva de salas de estudo e reunião.</p>
+        <div class="status">
+          <h2>Verificação do servidor</h2>
+          <p id="estado-api" role="status" aria-live="polite">Carregando...</p>
+        </div>
+        <p class="observacao">Esta é a estrutura inicial. Cadastro, login e reservas serão implementados nas próximas etapas.</p>
+      </section>
+    </main>
+  </body>
+</html>

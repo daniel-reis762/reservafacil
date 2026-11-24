@@ -1,0 +1,15 @@
+# Dependencias e segredos locais nunca entram no versionamento.
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Bancos locais e artefatos temporarios.
+dados/*.db
+dados/*.sqlite
+dados/*.sqlite3
+dados/*.db-*
+dados/*.sqlite-*
+*.log
+coverage/
+.DS_Store
